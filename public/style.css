@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:wght@100;200;300;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f3f5fc;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #0A3871;
+    background-color: #F3F5FC;
+}
+
+.logo {
+    margin: 40px 0 0 40px;
+    width: 120px;
+    height: 48px;
+    z-index: 1;
+    position: relative;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.encriptador {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: -40px 0 0 0;
+}
+
+.entrada {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    margin: -40px 10px 10px -50px;
+    z-index: 0;
+}
+
+.principal {
+    margin: 90px 0 0 0;
+}
+
+.principal textarea {
+    width: 370px;
+    height: 400px;
+    border: transparent;
+    resize: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #0A3871;
+    margin: 0 0 -10px 0;
+}
+
+.principal textarea:focus {
+    outline: none;
+}
+
+.principal .info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 0 40px 0;
+}
+
+.principal .info img {
+    width: 15px;
+    height: 15px;
+    margin: 0 0 0 0;
+
+}
+
+.principal .info p {
+    margin: 0 0 0 5px;
+    font-size: 0.7rem;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #0A3871;
+    cursor: default;
+}
+
+.encriptador .botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: -20px 0px 0px;
+
+}
+
+.encriptador .botones .boton-encriptar {
+    width: 200px;
+    height: 50px;
+    border: transparent;
+    border-radius: 24px;
+    background-color: #0A3871;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.encriptador .botones .boton-encriptar:focus {
+    outline: none;
+}
+
+.encriptador .botones .boton-encriptar:hover {
+    background-color: #0A3871;
+    opacity: 0.8;
+}
+
+.encriptador .botones .boton-encriptar:active {
+    background-color: #0A3871;
+    opacity: 0.8;
+}
+
+.encriptador .botones .boton-desencriptar {
+    width: 200px;
+    height: 50px;
+    border: transparent;
+    border-radius: 24px;
+    background-color: #D8DFE8;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #0A3871;
+    cursor: pointer;
+    margin-left: 24px;
+    border: 1px solid #0A3871;
+}
+
+.encriptador .botones .boton-desencriptar:focus {
+    outline: none;
+}
+
+.encriptador .botones .boton-desencriptar:hover {
+    background-color: #D8DFE8;
+    opacity: 0.8;
+}
+
+.encriptador .botones .boton-desencriptar:active {
+    background-color: #D8DFE8;
+    opacity: 0.8;
+}
+
+/* Sección de resultados */
+
+.encriptador .campo-resultado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    width: 390px;
+    height: 600px;
+    box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: -40px 0 0 0;
+}
+
+.encriptador .campo-resultado .resultado {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #0A3871;
+    background-color: transparent;
+}
+
+.encriptador .campo-resultado .boton-copiar {
+    width: 200px;
+    height: 50px;
+    border: transparent;
+    border-radius: 24px;
+    background-color: #0A3871;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: 300px;
+}
+
+.encriptador .campo-resultado img {
+    background-color: #FFFFFF;
+}
+
+.encriptador .campo-resultado .txt-resultado {
+    border: transparent;
+    resize: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #0A3871;
+    margin: 0 0 -10px 0;
+    text-align: center;
+    background-color: #FFFFFF;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.encriptador .campo-resultado .txt-instruccion {
+    border: transparent;
+    resize: none;
+    font-size: 0.7rem;
+    font-weight: 200;
+    line-height: 1.7;
+    color: #0A3871;
+    margin: 0 0 0 0;
+    text-align: center;
+    background-color: #FFFFFF;
+}
